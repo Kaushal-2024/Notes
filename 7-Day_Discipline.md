@@ -25,8 +25,8 @@ ans();
 #### sarif vs san sarif
 
 
-## Destructuing Website 
-[rejouice.com](https://www.rejouice.com)
+## Destructuing Website
+<https://www.rejouice.com>
 ---
 ---
 
@@ -52,6 +52,44 @@ console.log(a); //undefined
 >Alignment
 
 
+## Destructuing Website
+<https://www.lifeofabusker.dk/en>
 
-## Destructuing Website  <https://www.lifeofabusker.dk/en>
+---
+---
+
+
+
+# [Day-3](https://youtu.be/OQev2qCxxHo?si=Z7w6eJhZvnGDrg1d)
+
+
+## JS Interview Question
+
+> What is difference between **Event Bubbling** and **Event Capturing**?
+
+Any event ocur in child element(div) if any listener not in child element then call parent listener. 
+
+If parent element not have any listener than it call it's parent listenr.this consept know as event bubbling.
+
+When we any event call in parent listener than also caled it child listener.
+this consept know as event Capturing
+
+```js
+document.querySelector(".parent").addEventListener("click",function(){
+    alert("hello");
+},true);
+// true allow event capturing
+
+document.querySelector(".child").addEventListener("click",function(){
+    alert("hello");
+});
+```
+
+## Web-Dev Change Game 
+
+>Color
+
+
+## Destructuing Website
+<https://meadlight.com/en>
 
