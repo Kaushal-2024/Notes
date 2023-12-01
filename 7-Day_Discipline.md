@@ -93,3 +93,66 @@ document.querySelector(".child").addEventListener("click",function(){
 ## Destructuing Website
 <https://meadlight.com/en>
 
+
+# [Day-4](https://youtu.be/B9ZLDN-G_X0?si=dlCO8LLFHc6dIEr8)
+
+
+## JS Interview Question
+
+> What is **use strict**?
+
+It's one kind of mode for code writing in js.
+
+### Difference 
+
+1. Variable declaration
+```js
+//not Strick mode
+a = 10; //work
+
+//Strick mode
+"use strick"
+
+var a = 10; //work
+b = 20;  // Error
+```
+2. can't delete the variable
+```js
+//not Strick mode
+a = 10; 
+delete a; //not error
+
+//Strick mode
+"use strick"
+
+var a=12;
+delete a; // Error
+```
+
+3. can't make same parameters in functions
+```js
+//not Strick mode
+function doSomthing(a,b,b){
+
+}//not error
+
+//Strick mode
+"use strick"
+
+function doSomthing(a,b,b){
+
+}//Error
+```
+
+## Web-Dev Change Game 
+
+>**Images**
+
+### Good image sites
+
+<https://unsplash.com/>
+
+
+## Destructuing Website
+<https://simondaufresne.com/>
+
