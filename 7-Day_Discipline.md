@@ -155,4 +155,48 @@ function doSomthing(a,b,b){
 
 ## Destructuing Website
 <https://simondaufresne.com/>
+---
+---
+
+
+
+# [Day-5](https://youtu.be/nPgvmybIVvM?si=tyq-MDKZCbb-SteQ)
+
+
+## JS Interview Question
+
+> What is sync and async code in JS?
+
+**Synchronous JavaScript:**
+every statement of the code gets executed **one by one**. So, basically a statement has to wait for the earlier statement to get executed.
+
+```js
+console.log("1");
+console.log("2");
+console.log("3");
+```
+
+**Asynchronous JavaScript**
+Code which excuate after **main stack code excuation**
+
+```js
+console.log("1");
+setTimeout(function(){
+console.log("2");
+},0)
+console.log("3");
+
+
+//output : 1 3 2
+```
+
+**Callback function:** which function run after some time it's call callaback function.
+
+## Web-Dev Change Game 
+
+>Trends
+
+
+## Destructuing Website
+<https://showcase.refokus.com/>
 
