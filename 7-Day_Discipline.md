@@ -199,4 +199,29 @@ console.log("3");
 
 ## Destructuing Website
 <https://showcase.refokus.com/>
+---
+---
+
+# [Day-6](https://youtu.be/K9lVnav2Gec?si=IyddeeqVz12js7Ov)
+
+
+## JS Interview Question
+
+> What is EventLoop JS?
+
+The event loop is essentially a loop that runs continuously and checks for tasks that are waiting to be executed. These tasks are added to a queue, and the event loop runs through the queue, executing each task in order. 
+
+An event loop is a key mechanism in JavaScript that allows the program to handle multiple events and processes them efficiently. 
+
+It is responsible for managing the call stack, event handling, and garbage collection. While JavaScript is single-threaded, meaning it can only execute one function at a time, **the event loop allows it to handle multiple asynchronous events simultaneously.**
+
+This makes JavaScript able to handle activities such as user input, network requests, and animations without blocking the main thread of execution.
+
+## Web-Dev Change Game 
+
+>Design sence
+
+
+## Destructuing Website
+<https://wonderland.studio/>
 
