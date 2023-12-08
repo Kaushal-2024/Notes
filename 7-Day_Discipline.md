@@ -224,4 +224,13 @@ This makes JavaScript able to handle activities such as user input, network requ
 
 ## Destructuing Website
 <https://wonderland.studio/>
+---
+---
 
+
+
+# Mind Blowing website design
+
+<https://historical.nissan.slava.digital/>
+<https://web3-mugler.hello-jury.com/>
+<https://www.jeanpaulgaultier.com/ww/en/fragrances/le-male-elixir>
