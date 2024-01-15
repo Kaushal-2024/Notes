@@ -1,3 +1,5 @@
+# [CheatSheet](https://www.markdownguide.org/cheat-sheet/)
+
 # Headers
 
 # h1
@@ -9,8 +11,10 @@
 
 
 ---
+line
 
-> Quotes :
+
+> blockQuotes :
 
 ## List
 
@@ -52,3 +56,4 @@ class Main{
 |---- |---- |---- |
 |one  |two  |three|
 
+## [Add Badge](https://shields.io/badges/static-badge)
