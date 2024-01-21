@@ -268,9 +268,18 @@ This makes JavaScript able to handle activities such as user input, network requ
 
 # Mind Blowing website design
 
+<https://www.awwwards.com/>
+
+
 <https://historical.nissan.slava.digital/>
+
 <https://web3-mugler.hello-jury.com/>
+
 <https://www.jeanpaulgaultier.com/ww/en/fragrances/le-male-elixir>
+
 <https://www.oculus.com/medal-of-honor/>
+
 <https://bruno-simon.com/>
+
+<https://www.puma-campaigns.com/velocity-2-aw/>
 
