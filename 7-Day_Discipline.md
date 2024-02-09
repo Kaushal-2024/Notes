@@ -283,3 +283,8 @@ This makes JavaScript able to handle activities such as user input, network requ
 
 <https://www.puma-campaigns.com/velocity-2-aw/>
 
+<https://fix.studio/>
+
+<https://buttermax.net/>
+
+
