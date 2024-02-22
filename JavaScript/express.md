@@ -14,7 +14,7 @@ search express starter npm
 const express = require("express");
 const app = express();
 
-app.get("/",funciton(res,req){
+app.get("/",funciton(req,res){
     res.send("Hello World")
 });
 
@@ -25,26 +25,32 @@ app.listen(3000)
 
 ```js
 
-app.get("/",funciton(res,req){
+app.get("/",funciton(req,res){
     res.send("Hello World")
 });
 
-app.get("/profile",funciton(res,req){
+app.get("/profile",funciton(req,res){
     res.send("Hello profile")
 });
 ```
 
 ## middleware
-
+req se pasele  middleware run hoga
 ```js
-app.use(funciton(res,req,next){
-    next();
+app.use(funciton(req,res,next){
+    console.log("first middleware")
+    next();  // go to second miallware
+});
+
+app.use(funciton(req,res,next){
+    console.log("second middleware")
+    next(); // got to request
 });
 ```
 
 ## dynamic routing
 ```js
-app.get("/profile:username",funciton(res,req){
+app.get("/profile:username",funciton(req,res){
     res.send(`Hello ${req.params.username}`)
 });
 ```
@@ -68,7 +74,7 @@ app.get("/profile:username",funciton(res,req){
    
 5. send ki jagah rander karo
     ```js
-    app.get("/profile:username",funciton(res,req){
+    app.get("/profile:username",funciton(req,res){
         res.render("index")
     });
     ```
@@ -77,7 +83,7 @@ app.get("/profile:username",funciton(res,req){
 
     a. add data in render
      ```js
-    app.get("/profile:username",funciton(res,req){
+    app.get("/profile:username",funciton(req,res){
         res.render("index",{name:"kaushal"})
     });
     ```
@@ -105,11 +111,67 @@ app.get("/profile:username",funciton(res,req){
     ```
 2. make error handler with error page and show error
    ```js
-    function errorHandler (err, req, res, next) {
+    app.get('/error',(req,res,next) =>{
+        throw Error("Error ai he error ay hi he")
+    })
+    
+
+    app.use(function errorHandler (err, req, res, next) {
         if (res.headersSent) {
             return next(err)
         }
         res.status(500)
         res.render('error', { error: err })
-    }
+    })
+   ```
+
+ ## Do All above thing using express generator
+ give project structure
+
+ 1. install globally
+   ```sh
+    npm i express-generator -g
+   ```
+ 2. create new app
+    ```sh
+    express appname--views=ejs
+    ```
+
+ 3. Use 2 coomands
+    ```sh
+    cd appname
+    npm i 
+    ```
+ 4. Open it on vs code
+    ```sh
+    code .
+    ```
+ 5. Explore project
+
+
+
+
+## Flase Messages (like alerts)
+flash message allow you to user data in route which create in other route
+
+for use coonect-flash must use express sessions
+
+1. install connect-flash pkg and express-session ppkg
+   ```sh
+    npm i connect-flash
+    npm i exrpress-session
+   ```
+
+2. setup session
+   
+3. put connect-flash in app.use function
+   app.use(flash())
+
+4. create flash in route
+    ```js
+        req.flash("age",12)
+    ```
+5. uer flash in other route
+   ```js
+        req.flash("age")
    ```
