@@ -31,7 +31,6 @@ trury  : all things (without falsy)
 
 ## 7. for in an for of loop 
 
-
 ## 8. Callback function
  
 
@@ -78,3 +77,78 @@ let obj = {
 delete obj.age
 ```
 
+## 12. construction function
+-> jis function me `this` ka use ho our call ke karte time `new` ka use ho
+
+```js
+function createCar(color){
+    this.id = 1
+    this.color = color
+    this.type = sedan
+    
+}
+
+let car1 = new createCar("salmon")
+let car2 = new createCar("royalblue")
+
+```
+
+## 13. new keyword
+-> jab bhi new lgta he tab ak blank object banta he
+
+## 14. iife 
+-> immediately invoked function expression 
+
+```js
+(function(){
+    console.log("chal gya function")
+    var a = 12; // (private var)
+    
+})()
+
+console.log(a) // not defined
+
+```
+-> use for declare private variable
+
+use getter setter for access private variable
+
+```js
+
+let ans = (function(){
+    console.log("chal gya function")
+    var a = 12; // (private var)
+    
+    return {
+        getter : function(){
+            console.log(a)
+        },
+        setter: function(newVAl){
+            a = newVAL
+        }
+    }
+})()
+
+
+console.log(ans.getter) // 12
+
+console.log(ans.setter(23))
+
+console.log(ans.getter) // 23
+```
+
+
+## 15. Prototype
+
+[[prototype]] contains many helper properties and
+methods which we can use to complete our task.
+
+let's say we create an array and we want to know
+length of it, what do we do, we use length
+property on array, did we created . length on that
+array, no! but it still contains . length, the
+question is how ?
+
+the answer is, many properties and methods are
+already available to use built by javascript
+creators inside prototype of every object.
