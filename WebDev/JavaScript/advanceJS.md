@@ -5,6 +5,16 @@ a. var old js me tha (ES5) and let const new js(ES6) me he
 b. var function scope hota he  and let braces scope hota he
 c. var add itself to the `windows` object and let does not add
 
+### const vs let
+const ki value change ny kar sakte but let ki change kar sakte he.
+const to first time value dena jaruri he let ko  ny.
+```js
+let a; //work
+const b; // give error
+```
+
+
+
 ## 2. stack and heap memory
 basically heaps use for store variables values
 
@@ -152,3 +162,39 @@ question is how ?
 the answer is, many properties and methods are
 already available to use built by javascript
 creators inside prototype of every object.
+
+
+## 16. Arrow function
+
+1. fat arrow function
+
+    ```js
+    let add = ()=>{}
+
+    add()
+    ```
+2. fat arrow function with one parameter  
+   ```js
+    let add = (param)=>{}
+        // or 
+    let add = param =>{}
+
+    add()
+   ```
+3. fat arrow function with implicit function
+   ```js
+    let add = () => 12;
+
+    console.log(add()) //12
+
+   ```
+
+## 17. default parameter
+
+```js
+function add(a=0,b=10){
+    return a+b;
+}
+
+add(3) 
+```
