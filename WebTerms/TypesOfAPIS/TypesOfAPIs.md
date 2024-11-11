@@ -1,5 +1,6 @@
 # Types of API
 Let’s break down the types of APIs, including SOAP, REST, GraphQL, gRPC, Webhook, and WebSocket, with simple language and real-world use cases for better understanding:
+![alt text](TypesOfAPIs.webp)
 
 ### 1. **SOAP (Simple Object Access Protocol)**
    - **What it is**: SOAP is a protocol for exchanging structured information in the form of XML. It was designed for high-level security and reliability.
@@ -27,7 +28,7 @@ Let’s break down the types of APIs, including SOAP, REST, GraphQL, gRPC, Webho
      - Single endpoint for all operations.
      - Efficient for complex queries.
    - **Real-world use case**: **GitHub API** uses GraphQL. Developers can query only the specific details of repositories they need, like name, description, or stars count.
-
+  ![alt text](image.png)
 ### 4. **gRPC (gRPC Remote Procedure Call)**
    - **What it is**: gRPC is an open-source RPC framework that allows services to directly communicate with each other in different languages (e.g., Python calling a service written in Go).
    - **How it works**: It uses protocol buffers (protobufs) for defining services and methods, and sends binary data, making it super fast.
@@ -36,6 +37,7 @@ Let’s break down the types of APIs, including SOAP, REST, GraphQL, gRPC, Webho
      - Supports bi-directional streaming.
      - Strong typing (thanks to protobufs).
    - **Real-world use case**: **Microservices in large applications** (e.g., Google uses gRPC internally for its services where speed is crucial).
+   - [Video Link](https://youtu.be/PSe4GuLOFZw?si=GCVlGUFHl7pym54q)
 
 ### 5. **Webhook**
    - **What it is**: A webhook is an API concept where a server automatically sends data to another server when a certain event happens.
@@ -65,3 +67,14 @@ Let’s break down the types of APIs, including SOAP, REST, GraphQL, gRPC, Webho
 | WebSocket | Persistent connection  | Real-time apps (e.g., chat)      | Real-time, two-way communication|
 
 Each of these APIs has its own strengths depending on the use case, so selecting the right one depends on the specific requirements of the system you're building.
+
+---
+ ### Resources
+
+[Top 6 Most Popular API Architecture Styles](https://youtu.be/4vLxWqE94l4?si=HjtR3fi-f4mMTst6)
+
+[Why you should NOT use GraphQL as a backend developer?](https://youtu.be/ixDrzlinMx0?si=SBm3D3o8lCMmKJGA)
+
+[tRPC, gRPC, GraphQL or REST: when to use what?](https://youtu.be/veAb1fSp1Lk?si=YBEDoWwIdSbVI9Ix)
+
+[Images](https://app.napkin.ai/page/CgoiCHByb2Qtb25lEiwKBFBhZ2UaJGMxYzk2ZjE0LWFkZGItNGJhOS04NWM0LWQ5NDA1M2FiYmNkNQ?s=1)
