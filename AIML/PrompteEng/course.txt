@@ -1,0 +1,16 @@
+Course: 
+    https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/
+
+    https://cloud.google.com/discover/what-is-prompt-engineering?hl=en
+
+    https://www.codecademy.com/learn/prompt-engineering-for-software-engineers
+
+    # Advanced
+
+    https://learnprompting.org/courses/advanced-prompt-engineering
+
+    https://www.coursera.org/specializations/prompt-engineering
+
+
+Reference Site:
+    https://www.promptingguide.ai/

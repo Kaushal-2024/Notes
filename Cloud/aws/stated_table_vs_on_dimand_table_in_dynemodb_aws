@@ -1,0 +1,7 @@
+## Standard Tables:
+
+This is the default table type in DynamoDB.Offers consistent, single-digit millisecond latency at any scale.Best for applications with unpredictable workloads or that require consistent performance.Automatically scales up and down to adjust for capacity.
+
+## DynamoDB On-Demand Tables:
+
+Offers pay-per-request pricing for read and write requests.Automatically scales up and down based on actual traffic.Ideal for applications with unpredictable workloads, new applications with unknown traffic patterns, or for developers who prefer the simplicity of pay-per-request pricing.
