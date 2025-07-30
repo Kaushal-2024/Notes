@@ -1,0 +1,77 @@
+intro
+
+Good morning, my name is Kaushal Tarapra. I’m a software developer with around 1 year of experience, currently working at EspakrBiz. During this time, I’ve worked primarily with React and TypeScript, building scalable and responsive web applications.
+
+One of the key projects I contributed to was the Versio project, where I worked on component development, API integration, and state management.
+
+I’m passionate about clean code, UI performance, and learning modern frontend technologies. I’m excited for the opportunity to contribute and grow further with your team.
+
+
+
+
+*Batching in react
+Batching is the process where React groups multiple state updates together into a single re-render to improve performance.
+
+
+
+Virtual DOM	Efficient in-memory DOM for fast UI updates
+Components	Reusable pieces of UI
+Props	Data passed to components from parent
+State	Local component data that triggers re-renders
+Hooks	Functions like useState, useEffect for logic
+Re-rendering	Triggered by state/prop change, optimized by diffing
+
+
+HOOKs
+useState	Component state
+useEffect	Side effects (fetch, timer, etc.) dipendcay array quetion
+useContext	Access shared/global data
+useReducer	Complex state logic
+useMemo	Optimize expensive computations
+useCallback	Optimize function re-renders
+useRef	Access DOM or store persistent values
+
+
+Higher order componet
+what ?
+why ?
+when ?
+how ?
+
+Life Cycel meotho of component	(class component
+-mouting updating unmouting pashes
+
+State managment (state and props)
+propr driling
+react context
+
+Redux( & RTK) and Zustand
+how what when ?
+
+Custom hooks
+when ? why how ? code like useLocalStorage
+
+
+Lazy Loading
+code spliting
+chunking
+suspense
+
+Virtual DOM
+Reconcilize algo
+diffing algo
+react fiber
+render works ?
+
+SSR & CSR
+what and diff ?
+
+Routing(RBAC)
+react-router
+protected routes
+query parames
+
+
+
+
+
