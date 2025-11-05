@@ -1,11 +1,8 @@
 intro
 
-Good morning, my name is Kaushal Tarapra. I’m a software developer with around 1 year of experience, currently working at EspakrBiz. During this time, I’ve worked primarily with React and TypeScript, building scalable and responsive web applications.
+Good morning, sir. My name is Kaushal Tarapra. I'm a software developer with around 2 years of experience at EspakrBiz. My primary focus has been on front-end development using React and TypeScript, where I’ve contributed to building scalable and responsive web applications.
 
-One of the key projects I contributed to was the Versio project, where I worked on component development, API integration, and state management.
-
-I’m passionate about clean code, UI performance, and learning modern frontend technologies. I’m excited for the opportunity to contribute and grow further with your team.
-
+One of the key projects I’ve worked on includes MyBox and MyBitofit, where I was responsible for developing reusable components, integrating APIs, handling form validations, fixing bugs, implementing UI improvements, and managing application state. That’s all from my side — thank you.
 
 *Batching in react
 Batching is the process where React groups multiple state updates together into a single re-render to improve performance.
