@@ -16,6 +16,12 @@ Perfect 👍 since you mentioned your **communication is a bit weak**, I’ll ma
 ✅ Keep it natural, don’t memorize word-for-word — sound relaxed.
 ✅ Smile and make short pauses after each sentence.
 
+
+I’m a Full Stack Developer with 4+ years of experience working mainly with React, FastAPI, and PostgreSQL.
+I’ve built production-grade SaaS applications where I handled everything from frontend architecture to backend APIs and database design.
+I enjoy solving real-world problems, optimizing performance, and translating product requirements into clean, scalable systems.
+Recently, I worked on projects like MyBitOfIt, where I recreated complex workflows and ensured strong UI/UX integration with the backend
+
 ---
 
 ## 💬 2. Communication Templates (U.S. Client Style)
